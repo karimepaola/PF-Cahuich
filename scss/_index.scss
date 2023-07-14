@@ -1,0 +1,131 @@
+body  {
+  h1, h2, p{
+    font-family: $font-family;
+  }
+}
+.color-fondo{
+  background-color: #ee1975;
+}
+.nav-link{
+  color: #ffffff!important;
+}
+
+.banner {
+  background-color: #0b0b10;
+  background-image: linear-gradient(
+                  rgba(255, 179, 212, 0.56),
+                  rgba(255, 179, 212, 0.58)
+  ),
+
+  url("../img/banner.jpg");
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .text-banner-principal{
+    font-weight:600 ;
+    font-family: $font-family;
+    text-shadow: 3px 1px white;
+    color: #0b0b10;
+  }
+
+  .text-banner{
+    font-weight: 400;
+    font-family: $font-family;
+    font-size: 30px;
+    color: #0b0b10;
+  }
+
+  .btn-primary{
+    background-color: #ee1975;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 20px;
+    border-color:#ee1975 ;
+    &:hover{
+      background-color: #ffb3d4;
+      border-color:#ffb3d4 ;
+      color: #000000;
+    }
+
+  }
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+#como-ordenar{
+  background-color:$secondary-color;
+  height: 500px;
+  color: #ffffff;
+  .text-title{
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  p{
+    font-weight: 100;
+    text-align: justify;
+  }
+}
+
+.abs-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-top: 50px;
+}
+
+
+.timeline {
+  border-left: 1px solid hsl(0, 0%, 90%);
+  position: relative;
+  list-style: none;
+}
+
+.timeline .timeline-item {
+  position: relative;
+}
+
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .timeline-item:after {
+  background-color: hsl(0, 0%, 90%);
+  left: -38px;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+}
+
+#testimoniales{
+  background-color: #ffb3d4;
+
+  .testimonial{
+    background-color: #ffffff;
+  }
+}
+footer{
+  background-color: #7b6fe0;
+  color: #ffffff;
+}
+
+.banner-title{
+  background-color:$colorBanner ;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}

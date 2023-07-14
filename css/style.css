@@ -1,0 +1,128 @@
+body h1, body h2, body p {
+  font-family: "Belanosima", sans-serif;
+}
+
+.color-fondo {
+  background-color: #ee1975;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+.banner {
+  background-color: #0b0b10;
+  background-image: linear-gradient(rgba(255, 179, 212, 0.56), rgba(255, 179, 212, 0.58)), url("../img/banner.jpg");
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner .text-banner-principal {
+  font-weight: 600;
+  font-family: "Belanosima", sans-serif;
+  text-shadow: 3px 1px white;
+  color: #0b0b10;
+}
+.banner .text-banner {
+  font-weight: 400;
+  font-family: "Belanosima", sans-serif;
+  font-size: 30px;
+  color: #0b0b10;
+}
+.banner .btn-primary {
+  background-color: #ee1975;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 20px;
+  border-color: #ee1975;
+}
+.banner .btn-primary:hover {
+  background-color: #ffb3d4;
+  border-color: #ffb3d4;
+  color: #000000;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+#como-ordenar {
+  background-color: #28ccb0;
+  height: 500px;
+  color: #ffffff;
+}
+#como-ordenar .text-title {
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+#como-ordenar p {
+  font-weight: 100;
+  text-align: justify;
+}
+
+.abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-top: 50px;
+}
+
+.timeline {
+  border-left: 1px solid hsl(0, 0%, 90%);
+  position: relative;
+  list-style: none;
+}
+
+.timeline .timeline-item {
+  position: relative;
+}
+
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .timeline-item:after {
+  background-color: hsl(0, 0%, 90%);
+  left: -38px;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+}
+
+#testimoniales {
+  background-color: #ffb3d4;
+}
+#testimoniales .testimonial {
+  background-color: #ffffff;
+}
+
+footer {
+  background-color: #7b6fe0;
+  color: #ffffff;
+}
+
+.banner-title {
+  background-color: #ffb3d4;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .banner {
+    height: 500px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
